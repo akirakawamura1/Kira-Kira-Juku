@@ -67,9 +67,15 @@
   * メニュー先頭画像設置
 *----------------------------*/
 .header_menu_link::before {
-    content: url('/assets/image/arrow-right.png');
-    display: inline-block;
-    margin-right: 5px;
+    content: "";
+    background-size: cover;
+    background-image: url('/assets/image/arrow-right.png');
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
+    width: 1.4rem;
+    height: 1.2rem;
+    background-position: center;
+    display: block;
 }
 /*----------------------------
   * メニュー本体
@@ -116,4 +122,53 @@ a.header_entry_botton {
     .header_menu_button {
         display: none;
     }
+}
+
+/*----------------------------
+  *  ここまでSP設定 
+  *----------------------------*/
+
+
+
+/*----------------------------
+  *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
+  *----------------------------*/
+/* 画面の横幅が768px以上の場合 */
+@media screen and (min-width: 768px) {
+    header.header {
+        position: static;
+        background: blue;
+        height: 10.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .header_logo,
+    .header_nav {
+        display: flex;
+    }
+    .header_nav .header_menu {
+        display: flex;
+        gap: 1rem;
+    }
+    .header_container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1160px;
+        margin: 0 auto;
+        padding: 0 0 0 1rem;
+        background-color: yellow;
+    }
+    .header_nav {
+        position: static;
+    }
+    nav.header_nav {
+        padding: 0;
+        width: auto;
+    }
+    
 }
