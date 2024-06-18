@@ -90,6 +90,7 @@ li {
   * メニュー本体
   *----------------------------*/
 .header_nav {
+  display: none;
   position: absolute;
   top: 7rem;
   right: 0;
@@ -110,42 +111,55 @@ li {
 /*----------------------------
   * メニュー先頭に矢印画像設置
 *----------------------------*/
+/*----------------------------
+  * メニュー先頭画像設置
+*----------------------------*/
 .header_menu_link::before {
-  content: url("/assets/image/arrow-right.png");
-  display: inline-block;
-  margin-right: 5px;
+  content: "";
+  background-size: cover;
+  background-image: url("/assets/image/arrow-right.svg");
+  background-repeat: no-repeat;
+  margin-right: 0.5rem;
+  width: 1.4rem;
+  height: 1.2rem;
+  background-position: center;
+  display: block;
+  margin-top: 0.2rem;
+}
+
+/*----------------------------
+  * メニュー本体
+*----------------------------*/
+.header_nav {
+  padding: 0 2rem 3.2rem 2rem;
+  width: 100%;
+}
+
+ul.header_menu {
+  width: 100%;
 }
 
 .header_menu_link {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   color: #ffffff;
   display: flex;
   align-items: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-bottom: 1px solid #80add5;
-  width: 350px;
-  margin: 0 auto;
-}
-.header_menu_link img {
-  width: 14px;
-  height: auto;
-  margin-right: 10px;
-  transform: translateY(1px);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-bottom: 0.1rem solid #80add5;
+  width: 100%;
 }
 
 a.header_entry_botton {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   color: #005bac;
   display: block;
-  text-align: center;
-  line-height: 50px;
-  width: 350px;
-  margin: 0 auto;
-  background-color: #ffffff;
+  width: 100%;
+  padding: 2rem;
   margin-top: 3.2rem;
-  margin-bottom: 3.2rem;
-  border-radius: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 3.3rem;
 }
 
 /*----------------------------
