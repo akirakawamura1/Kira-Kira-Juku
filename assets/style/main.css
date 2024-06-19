@@ -90,10 +90,7 @@ li {
   * メニュー本体
   *----------------------------*/
 .header_nav {
-<<<<<<< HEAD
   display: none;
-=======
->>>>>>> 706811c178887cc9b84f513734654b475eeeaf79
   position: absolute;
   top: 7rem;
   right: 0;
@@ -105,10 +102,7 @@ li {
   align-items: center;
   justify-content: center;
   background: #005bac;
-<<<<<<< HEAD
   width: 100%;
-=======
->>>>>>> 706811c178887cc9b84f513734654b475eeeaf79
 }
 
 /*----------------------------
@@ -132,26 +126,25 @@ li {
   background-position: center;
   display: block;
   margin-top: 0.2rem;
-=======
-  * メニュー先頭画像設置
-*----------------------------*/
-.header_menu_link::before {
-  content: url("/assets/image/arrow-right.png");
-  display: inline-block;
-  margin-right: 5px;
->>>>>>> 706811c178887cc9b84f513734654b475eeeaf79
 }
 
 /*----------------------------
   * メニュー本体
 *----------------------------*/
-<<<<<<< HEAD
 .header_nav {
   padding: 0 2rem 3.2rem 2rem;
-=======
+  width: 100%;
+}
+
+ul.header_menu {
+  width: 100%;
+}
+
+/*----------------------------
+  * メニュー本体
+*----------------------------*/
 nav.header_nav {
   padding: 2rem 2rem 3.2rem 2rem;
->>>>>>> 706811c178887cc9b84f513734654b475eeeaf79
   width: 100%;
 }
 
@@ -168,6 +161,7 @@ ul.header_menu {
   padding-top: 2rem;
   border-bottom: 0.1rem solid #80add5;
   width: 100%;
+  width: 35rem;
 }
 
 a.header_entry_botton {
@@ -192,5 +186,49 @@ a.header_entry_botton {
   }
   .header_menu_button {
     display: none;
+  }
+}
+/*----------------------------
+  *  ここまでSP設定 
+  *----------------------------*/
+/*----------------------------
+  *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
+  *----------------------------*/
+/* 画面の横幅が768px以上の場合 */
+@media screen and (min-width: 768px) {
+  header.header {
+    position: static;
+    background: blue;
+    height: 10.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  .header_logo,
+  .header_nav {
+    display: flex;
+  }
+  .header_nav .header_menu {
+    display: flex;
+    gap: 1rem;
+  }
+  .header_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 0 0 1rem;
+    background-color: yellow;
+  }
+  .header_nav {
+    position: static;
+  }
+  nav.header_nav {
+    padding: 0;
+    width: auto;
   }
 }/*# sourceMappingURL=main.css.map */
