@@ -38,7 +38,7 @@
     z-index: 2;
 }
 
- .header_menu_icon {
+.header_menu_icon {
     width: 3rem;
     height: 2.625rem;
 
@@ -61,7 +61,7 @@
     justify-content: center;
     background: #005bac;
     width: 100%;
-}    
+}
 
 /*----------------------------
   * ドロワーメニュー
@@ -79,34 +79,35 @@
   * メニュー先頭画像設置
 *----------------------------*/
 .header_menu_link::before {
-        content: "";
-        background-size: cover;
-        background-image: url('/assets/image/arrow-right.svg');
-        background-repeat: no-repeat;
-        margin-right: 0.5rem;
-        width: 1.4rem;
-        height: 1.2rem;
-        background-position: center;
-        display: block;
-        margin-top: 0.2rem;
-    }
+    content: "";
+    background-size: cover;
+    background-image: url('/assets/image/arrow-right.svg');
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
+    width: 1.4rem;
+    height: 1.2rem;
+    background-position: center;
+    display: block;
+    margin-top: 0.2rem;
+}
 
-    /*----------------------------
-  * メニュー本体
-*----------------------------*/
-    .header_nav {
-        padding: 0 2rem 3.2rem 2rem;
-        width: 100%;
-    }
-
-    ul.header_menu {
-        width: 100%;
-    }
 /*----------------------------
   * メニュー本体
 *----------------------------*/
-nav.header_nav {
-    padding: 2rem 2rem 3.2rem 2rem;
+.header_nav {
+    padding: 0 2rem 3.2rem 2rem;
+    width: 100%;
+}
+
+ul.header_menu {
+    width: 100%;
+}
+
+/*----------------------------
+  * メニュー本体
+*----------------------------*/
+.header_nav {
+    padding: 0 2rem 3.2rem 2rem;
     width: 100%;
 }
 
@@ -123,7 +124,7 @@ ul.header_menu {
     padding-top: 2rem;
     border-bottom: 0.1rem solid #80add5;
     width: 100%;
-    width: 35rem;
+    // width: 35rem;
     // margin: 0 auto;
 }
 
@@ -138,6 +139,7 @@ a.header_entry_botton {
     background-color: #ffffff;
     border-radius: 3.3rem;
 }
+
 /*----------------------------
   *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
   *----------------------------*/
@@ -197,10 +199,8 @@ a.header_entry_botton {
 
     .header_nav {
         position: static;
-    }
-
-    nav.header_nav {
         padding: 0;
         width: auto;
+        width: initial;
     }
 }

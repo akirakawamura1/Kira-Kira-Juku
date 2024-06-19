@@ -143,8 +143,8 @@ ul.header_menu {
 /*----------------------------
   * メニュー本体
 *----------------------------*/
-nav.header_nav {
-  padding: 2rem 2rem 3.2rem 2rem;
+.header_nav {
+  padding: 0 2rem 3.2rem 2rem;
   width: 100%;
 }
 
@@ -161,7 +161,6 @@ ul.header_menu {
   padding-top: 2rem;
   border-bottom: 0.1rem solid #80add5;
   width: 100%;
-  width: 35rem;
 }
 
 a.header_entry_botton {
@@ -226,9 +225,8 @@ a.header_entry_botton {
   }
   .header_nav {
     position: static;
-  }
-  nav.header_nav {
     padding: 0;
     width: auto;
+    width: initial;
   }
 }/*# sourceMappingURL=main.css.map */
