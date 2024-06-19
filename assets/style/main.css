@@ -90,7 +90,10 @@ li {
   * メニュー本体
   *----------------------------*/
 .header_nav {
+<<<<<<< HEAD
   display: none;
+=======
+>>>>>>> 706811c178887cc9b84f513734654b475eeeaf79
   position: absolute;
   top: 7rem;
   right: 0;
@@ -102,13 +105,17 @@ li {
   align-items: center;
   justify-content: center;
   background: #005bac;
+<<<<<<< HEAD
   width: 100%;
+=======
+>>>>>>> 706811c178887cc9b84f513734654b475eeeaf79
 }
 
 /*----------------------------
   * ドロワーメニュー
 *----------------------------*/
 /*----------------------------
+<<<<<<< HEAD
   * メニュー先頭に矢印画像設置
 *----------------------------*/
 /*----------------------------
@@ -125,13 +132,26 @@ li {
   background-position: center;
   display: block;
   margin-top: 0.2rem;
+=======
+  * メニュー先頭画像設置
+*----------------------------*/
+.header_menu_link::before {
+  content: url("/assets/image/arrow-right.png");
+  display: inline-block;
+  margin-right: 5px;
+>>>>>>> 706811c178887cc9b84f513734654b475eeeaf79
 }
 
 /*----------------------------
   * メニュー本体
 *----------------------------*/
+<<<<<<< HEAD
 .header_nav {
   padding: 0 2rem 3.2rem 2rem;
+=======
+nav.header_nav {
+  padding: 2rem 2rem 3.2rem 2rem;
+>>>>>>> 706811c178887cc9b84f513734654b475eeeaf79
   width: 100%;
 }
 
