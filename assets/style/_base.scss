@@ -1,33 +1,7 @@
 @charset "UTF-8";
-<<<<<<< HEAD
-
-=======
->>>>>>> c9b79e42ee33da4dd95188d73bdb1ab6006a573e
-/* レスポンシブなフォントサイズの設定
------------------------------------------- */
-
-html {
-    font-size: calc(10 * 100vw / 375);
-    /* SP表示:横幅375px未満 */
-}
-
-@media (min-width:768px) {
-    html {
-        font-size: calc(10 * 100vw / 1200);
-        /* PC表示:横幅768px以上 */
-    }
-}
-
-@media (min-width: 1200px) {
-    html {
-        font-size: 62.5%;
-        /* 画面の横幅が1200px以上の場合 */
-    }
-}
 
 /* レスポンシブなフォントサイズの設定
 ------------------------------------------ */
-
 html {
     font-size: calc(10 * 100vw / 375);
     /* SP表示:横幅375px未満 */
@@ -68,9 +42,10 @@ img {
 
 li {
     list-style: none;
-<<<<<<< HEAD
+    <<<<<<< HEAD
 }
 
 =======
 }
->>>>>>> c9b79e42ee33da4dd95188d73bdb1ab6006a573e
+
+>>>>>>>c9b79e42ee33da4dd95188d73bdb1ab6006a573e
