@@ -1,4 +1,23 @@
 @charset "UTF-8";
+/* レスポンシブなフォントサイズの設定
+------------------------------------------ */
+html {
+  font-size: 2.6666666667vw;
+  /* SP表示:横幅375px未満 */
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 0.8333333333vw;
+    /* PC表示:横幅768px以上 */
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
+    /* 画面の横幅が1200px以上の場合 */
+  }
+}
 /* ページ全体のスタイル
 ------------------------------------------ */
 body {
@@ -20,4 +39,14 @@ img {
 
 li {
   list-style: none;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #ffffff;
+  height: 7rem;
 }/*# sourceMappingURL=main.css.map */
