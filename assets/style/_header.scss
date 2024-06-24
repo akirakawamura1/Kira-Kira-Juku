@@ -1,0 +1,22 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #ffffff;
+    height: 7rem;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 0 1rem;
+}
+.header_logo_img {
+    width: 16.6rem;
+    height: 3.4rem;
+}
