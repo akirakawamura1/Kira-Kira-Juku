@@ -73,4 +73,23 @@
     pointer-events: auto;
     opacity: 1;
 }
+/*----------------------------
+  * ドロワーメニュー
+*----------------------------*/
+/*----------------------------
+  * メニュー先頭画像設置
+*----------------------------*/
+.header_menu_link::before {
+    content:"";
+    background-size: cover; 
+    background-image:url('/assets/image/arrow-right.svg');
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
+    width: 1.4rem;
+    height: 1.2rem;
+    background-position: center;
+    display: block;
+    margin-top: 0.2rem;
+}
+
 
