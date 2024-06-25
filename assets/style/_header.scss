@@ -56,5 +56,20 @@
     background: #005bac;
     width: 100%;
 }
+/*----------------------------
+  * アニメーション部分
+  *----------------------------*/
 
+/* アニメーション前のメニューの状態 */
+.header_nav {
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .3s linear;
+}
+
+/* アニメーション後のメニューの状態 */
+.header_nav.is-active {
+    pointer-events: auto;
+    opacity: 1;
+}
 
