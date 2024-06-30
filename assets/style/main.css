@@ -195,4 +195,19 @@ a.header_entry_botton {
 /*----------------------------
   *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
   *----------------------------*/
+<<<<<<< HEAD
 /* 画面の横幅が768px以上の場合 *//*# sourceMappingURL=main.css.map */
+=======
+/* 画面の横幅が768px以上の場合 */
+@media screen and (min-width: 768px) {
+  .header_menu_link::before {
+    display: none;
+  }
+  .header_menu_link {
+    all: initial;
+    color: inherit;
+    font-family: inherit;
+    line-height: inherit;
+  }
+}/*# sourceMappingURL=main.css.map */
+>>>>>>> 461b3ad4b6ed678f04a37848984a95d840500009
