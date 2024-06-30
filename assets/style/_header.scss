@@ -30,7 +30,7 @@
     justify-content: center;
     align-items: center;
     background: #005bac;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     z-index: 2;
 }
@@ -132,6 +132,7 @@ a.header_entry_botton {
 @media screen and (min-width: 768px) {
   .header_nav {
       display: block;
+      opacity: 1;
   }
 
   .header_menu_button {
