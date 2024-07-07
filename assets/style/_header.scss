@@ -125,7 +125,7 @@
 *------------------------------------*/
 .header_nav {
   padding: 0 2rem 3.2rem 2rem;
-  width: 100%;
+  // width: 100%;
 
   @media screen and (min-width: 768px) {
     position: unset;
@@ -133,6 +133,8 @@
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
+    gap: 4.8rem;
+    justify-content: flex-end;
   }
 }
 
@@ -142,6 +144,8 @@ ul.header_menu {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: 4.8rem;
+    width: unset;
   }
 }
 
