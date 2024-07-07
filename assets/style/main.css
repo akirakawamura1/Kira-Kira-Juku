@@ -62,14 +62,12 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 0 0 1rem;
 }
 @media screen and (min-width: 768px) {
   .header_container {
-    max-width: 1160px;
+    max-width: 116rem;
     padding: 0;
   }
 }
@@ -86,7 +84,7 @@ li {
 }
 
 /*----------------------------
-  * メニュー開閉ボタン
+  * ハンバーガーメニューボタン
   *----------------------------*/
 .header_menu_button {
   width: 7rem;
@@ -110,9 +108,10 @@ li {
   *----------------------------*/
 .header_nav {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 7rem;
   right: 0;
+  left: 0;
   pointer-events: none;
   transition: opacity 0.3s linear;
   z-index: 1;
@@ -121,17 +120,14 @@ li {
   align-items: center;
   justify-content: center;
   background: #005bac;
-  width: 100%;
-}
-
-/*----------------------------
-  * アニメーション部分
-  *----------------------------*/
-/* アニメーション前のメニューの状態 */
-.header_nav {
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.3s linear;
+}
+@media screen and (min-width: 768px) {
+  .header_nav {
+    width: unset;
+  }
 }
 
 /* アニメーション後のメニューの状態 */
@@ -170,7 +166,6 @@ li {
 *------------------------------------*/
 .header_nav {
   padding: 0 2rem 3.2rem 2rem;
-  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .header_nav {
@@ -179,6 +174,8 @@ li {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
+    gap: 4.8rem;
+    justify-content: flex-end;
   }
 }
 
@@ -190,6 +187,8 @@ ul.header_menu {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: 4.8rem;
+    width: unset;
   }
 }
 
@@ -235,6 +234,7 @@ a.header_entry_botton {
     margin-top: unset;
     width: 28.2rem;
     height: 6.1rem;
+    border-radius: 3.1rem;
   }
 }
 
