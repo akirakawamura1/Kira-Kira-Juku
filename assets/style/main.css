@@ -226,7 +226,7 @@ a.header_entry_botton {
 @media screen and (min-width: 768px) {
   a.header_entry_botton {
     color: #ffffff;
-    background-color: #005bac;
+    background-image: linear-gradient(to right, #0271e0, #53a2f0);
     display: flex;
     align-items: center;
     justify-content: center;
