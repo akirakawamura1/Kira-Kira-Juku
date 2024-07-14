@@ -48,22 +48,26 @@ li {
   right: 0;
   z-index: 1000;
   background: #ffffff;
-  height: 7rem;
 }
 
 .header_container {
+  height: 7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 0 0 1rem;
 }
 
-.header_logo_img {
+.header_logo_image {
   width: 16.6rem;
   height: 3.4rem;
+}
+@media screen and (min-width: 768px) {
+  .header_logo_image {
+    width: 24.1rem;
+    height: 4.5rem;
+  }
 }
 
 /*----------------------------
@@ -91,25 +95,16 @@ li {
 *----------------------------*/
 .header_nav {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 7rem;
   right: 0;
-  pointer-events: none;
-  transition: opacity 0.3s linear;
+  left: 0;
   z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #005bac;
-  width: 100%;
-}
-
-/*----------------------------
-* アニメーション部分
-*----------------------------*/
-/* アニメーション前のメニューの状態 */
-.header_nav {
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.3s linear;
@@ -117,7 +112,6 @@ li {
 
 /* アニメーション後のメニューの状態 */
 .header_nav.is-active {
-  width: 37.5rem;
   pointer-events: auto;
   opacity: 1;
 }
@@ -140,13 +134,17 @@ li {
   display: block;
   margin-top: 0.2rem;
 }
+@media screen and (min-width: 768px) {
+  .header_menu_link::before {
+    display: none;
+  }
+}
 
 /*-------------------------------------
   * ドロワーメニューのレイアウト設定
 *------------------------------------*/
 .header_nav {
   padding: 0 2rem 3.2rem 2rem;
-  width: 100%;
 }
 
 ul.header_menu {
@@ -182,8 +180,9 @@ a.header_entry_botton {
 /* 画面の横幅が768px以上の場合 */
 @media screen and (min-width: 768px) {
   .header_nav {
-    display: block;
+    display: flex;
     opacity: 1;
+    pointer-events: auto;
   }
   .header_menu_button {
     display: none;
@@ -194,5 +193,4 @@ a.header_entry_botton {
 *----------------------------*/
 /*----------------------------
 *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
-*----------------------------*/
-/* 画面の横幅が768px以上の場合 *//*# sourceMappingURL=main.css.map */
+*----------------------------*//*# sourceMappingURL=main.css.map */
