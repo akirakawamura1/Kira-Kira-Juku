@@ -14,6 +14,12 @@
   align-items: center;
   margin: 0 auto;
   padding: 0 0 0 1rem;
+
+  @media screen and (min-width: 768px) {
+    height: 10.1rem;
+    max-width: 116rem;
+    padding: 0;
+  }
 }
 
 .header_logo_image {
@@ -27,7 +33,7 @@
 }
 
 /*----------------------------
-  * メニュー開閉ボタン
+  * ハンバーガーメニューボタン
   *----------------------------*/
 .header_menu_button {
   width: 7rem;
@@ -39,17 +45,18 @@
   color: #ffffff;
   cursor: pointer;
   z-index: 2;
-  }
+}
 
-  .header_menu_icon {
-    width: 3rem;
-    height: 2.625rem;
-  }
+.header_menu_icon {
+  width: 3rem;
+  height: 2.625rem;
+}
 
-  /*----------------------------
+/*----------------------------
   * メニュー本体
   *----------------------------*/
   .header_nav {
+<<<<<<< HEAD
     display: none;
     position: fixed;
     top: 7rem;
@@ -62,6 +69,27 @@
     justify-content: center;
     background: #005bac;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    display: none {
+      position: fixed;
+      top: 7rem;
+      right: 0;
+      left: 0;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #005bac;
+    }
+  
+>>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
+>>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
+>>>>>>> 294470e9752795a05d0619aa5c296058d76d4a5e
     // アニメーション前のメニューの状態
     pointer-events: none;
     opacity: 0;
@@ -77,7 +105,7 @@
   /*----------------------------
   * ドロワーメニュー
 *----------------------------*/
-  /*----------------------------
+/*----------------------------
   * メニュー先頭画像設置
 *----------------------------*/
   .header_menu_link::before {
@@ -93,49 +121,66 @@
     margin-top: 0.2rem;
     // 画面の横幅が768px以上の場合
   @media screen and (min-width: 768px) {
+<<<<<<< HEAD
     display: none;
+=======
+<<<<<<< HEAD
+    display: none;
+=======
+<<<<<<< HEAD
+    display: none;
+=======
+    display: none {
+>>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
+>>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
+>>>>>>> 294470e9752795a05d0619aa5c296058d76d4a5e
   }
   }
 
-  /*-------------------------------------
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+/*-------------------------------------
   * ドロワーメニューのレイアウト設定
 *------------------------------------*/
   .header_nav {
     padding: 0 2rem 3.2rem 2rem;
   }
 
-  ul.header_menu {
-    width: 100%;
+  @media screen and (min-width: 768px) {
+    position: unset;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 4.8rem;
+    justify-content: flex-end;
   }
 
-  .header_menu_link {
-    font-size: 1.8rem;
-    color: #ffffff;
+ul.header_menu {
+  width: 100%;
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    border-bottom: 0.1rem solid #80add5;
-    width: 100%;
+    justify-content: flex-end;
+    gap: 4.8rem;
+    width: unset;
   }
+}
 
-  a.header_entry_botton {
-    font-size: 1.8rem;
-    color: #005bac;
-    display: block;
-    width: 100%;
-    padding: 2rem;
-    margin-top: 3.2rem;
-    text-align: center;
-    background-color: #ffffff;
-    border-radius: 3.3rem;
-  }
-
-  /*----------------------------
-  *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
-  *----------------------------*/
-  /* 画面の横幅が768px以上の場合 */
+.header_menu_link {
+  font-size: 1.8rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-bottom: 0.1rem solid #80add5;
+  width: 100%;
   @media screen and (min-width: 768px) {
+<<<<<<< HEAD
     .header_nav {
       display: flex;
       opacity: 1;
@@ -145,14 +190,55 @@
     .header_menu_button {
       display: none;
     }
+=======
+    color: initial;
+    padding-bottom: 0;
+    padding-top: 0;
+    border-bottom: none;
+    // margin-right: 4.8rem;
+    width: unset;
+>>>>>>> 294470e9752795a05d0619aa5c296058d76d4a5e
   }
+}
 
-  /*----------------------------
-  *  ここまでがSP完成 
-  *----------------------------*/
+a.header_entry_botton {
+  font-size: 1.8rem;
+  color: #005bac;
+  display: block;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 3.3rem;
+  @media screen and (min-width: 768px) {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #0271e0, #53a2f0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: unset;
+    margin-top: unset;
+    width: 28.2rem;
+    height: 6.1rem;
+    border-radius: 3.1rem;
+  }
+}
 
-  /*----------------------------
+/*----------------------------
   *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
   *----------------------------*/
   // 画面の横幅が768px以上の場合
+<<<<<<< HEAD
   @media screen and (min-width: 768px) {}
+=======
+<<<<<<< HEAD
+  @media screen and (min-width: 768px) {}
+=======
+<<<<<<< HEAD
+  @media screen and (min-width: 768px) {}
+=======
+  @media screen and (min-width: 768px) {}
+>>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
+>>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
+>>>>>>> 294470e9752795a05d0619aa5c296058d76d4a5e
