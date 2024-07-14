@@ -58,6 +58,13 @@ li {
   margin: 0 auto;
   padding: 0 0 0 1rem;
 }
+@media screen and (min-width: 768px) {
+  .header_container {
+    height: 10.1rem;
+    max-width: 116rem;
+    padding: 0;
+  }
+}
 
 .header_logo_image {
   width: 16.6rem;
@@ -71,7 +78,7 @@ li {
 }
 
 /*----------------------------
-  * メニュー開閉ボタン
+  * ハンバーガーメニューボタン
   *----------------------------*/
 .header_menu_button {
   width: 7rem;
@@ -91,14 +98,25 @@ li {
 }
 
 /*----------------------------
-* メニュー本体
-*----------------------------*/
+  * メニュー本体
+  *----------------------------*/
 .header_nav {
   display: none;
   position: fixed;
   top: 7rem;
   right: 0;
   left: 0;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  pointer-events: none;
+  transition: opacity 0.3s linear;
+>>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
+>>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
+>>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -109,9 +127,24 @@ li {
   opacity: 0;
   transition: opacity 0.3s linear;
 }
+@media screen and (min-width: 768px) {
+  .header_nav {
+    width: unset;
+  }
+}
 
 /* アニメーション後のメニューの状態 */
 .header_nav.is-active {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  width: 100%;
+>>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
+>>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
+>>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
   pointer-events: auto;
   opacity: 1;
 }
@@ -145,10 +178,39 @@ li {
 *------------------------------------*/
 .header_nav {
   padding: 0 2rem 3.2rem 2rem;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+}
+@media screen and (min-width: 768px) {
+  .header_nav {
+    position: unset;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 4.8rem;
+    justify-content: flex-end;
+  }
+>>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
+>>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
+>>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
 }
 
 ul.header_menu {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  ul.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4.8rem;
+    width: unset;
+  }
 }
 
 .header_menu_link {
@@ -160,6 +222,15 @@ ul.header_menu {
   padding-top: 2rem;
   border-bottom: 0.1rem solid #80add5;
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .header_menu_link {
+    color: initial;
+    padding-bottom: 0;
+    padding-top: 0;
+    border-bottom: none;
+    width: unset;
+  }
 }
 
 a.header_entry_botton {
@@ -173,13 +244,37 @@ a.header_entry_botton {
   background-color: #ffffff;
   border-radius: 3.3rem;
 }
+@media screen and (min-width: 768px) {
+  a.header_entry_botton {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #0271e0, #53a2f0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: unset;
+    margin-top: unset;
+    width: 28.2rem;
+    height: 6.1rem;
+    border-radius: 3.1rem;
+  }
+}
 
 /*----------------------------
-*  画面幅が768px以上のときに適用されるスタイル（PC表示） 
-*----------------------------*/
+  *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
+  *----------------------------*/
 /* 画面の横幅が768px以上の場合 */
 @media screen and (min-width: 768px) {
   .header_nav {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
+>>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
+>>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
     display: flex;
     opacity: 1;
     pointer-events: auto;
@@ -189,8 +284,22 @@ a.header_entry_botton {
   }
 }
 /*----------------------------
-*  ここまでがSP完成 
+  *  ここまでがSP完成 
 *----------------------------*/
 /*----------------------------
+<<<<<<< HEAD
 *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
+<<<<<<< HEAD
 *----------------------------*//*# sourceMappingURL=main.css.map */
+=======
+<<<<<<< HEAD
+*----------------------------*//*# sourceMappingURL=main.css.map */
+=======
+*----------------------------*//*# sourceMappingURL=main.css.map */
+=======
+  *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
+  *----------------------------*/
+/* 画面の横幅が768px以上の場合 *//*# sourceMappingURL=main.css.map */
+>>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
+>>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
+>>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
