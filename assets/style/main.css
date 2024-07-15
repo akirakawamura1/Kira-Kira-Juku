@@ -58,6 +58,12 @@ li {
   margin: 0 auto;
   padding: 0 0 0 1rem;
 }
+@media screen and (min-width: 768px) {
+  .header_container {
+    height: 10.1rem;
+    max-width: 116rem;
+  }
+}
 
 .header_logo_image {
   width: 16.6rem;
@@ -146,9 +152,25 @@ li {
 .header_nav {
   padding: 0 2rem 3.2rem 2rem;
 }
+@media screen and (min-width: 768px) {
+  .header_nav {
+    padding: unset;
+    position: unset;
+    background-color: #ffffff;
+    flex-direction: unset;
+    gap: 4.8rem;
+  }
+}
 
 ul.header_menu {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  ul.header_menu {
+    width: unset;
+    display: flex;
+    gap: 4.8rem;
+  }
 }
 
 .header_menu_link {
@@ -161,6 +183,17 @@ ul.header_menu {
   border-bottom: 0.1rem solid #80add5;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .header_menu_link {
+    font-size: 2rem;
+    color: initial;
+    display: block;
+    padding-bottom: unset;
+    padding-top: unset;
+    border-bottom: none;
+    width: unset;
+  }
+}
 
 a.header_entry_botton {
   font-size: 1.8rem;
@@ -172,6 +205,22 @@ a.header_entry_botton {
   text-align: center;
   background-color: #ffffff;
   border-radius: 3.3rem;
+}
+@media screen and (min-width: 768px) {
+  a.header_entry_botton {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: unset;
+    padding: unset;
+    margin-top: unset;
+    background-image: linear-gradient(to right, #0271e0, #53a2f0);
+    width: 28.2rem;
+    height: 6.1rem;
+  }
 }
 
 /*----------------------------
@@ -190,7 +239,4 @@ a.header_entry_botton {
 }
 /*----------------------------
 *  ここまでがSP完成 
-*----------------------------*/
-/*----------------------------
-*  画面幅が768px以上のときに適用されるスタイル（PC表示） 
 *----------------------------*//*# sourceMappingURL=main.css.map */
