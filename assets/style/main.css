@@ -239,4 +239,7 @@ a.header_entry_botton {
 }
 /*----------------------------
 *  ここまでがSP完成 
-*----------------------------*//*# sourceMappingURL=main.css.map */
+*----------------------------*/
+.cover {
+  background-image: url(/assets/image/top_pc.jpg);
+}/*# sourceMappingURL=main.css.map */
