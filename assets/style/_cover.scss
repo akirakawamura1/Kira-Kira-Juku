@@ -1,0 +1,7 @@
+.cover {
+    background-image: url(/assets/image/top_pc.jpg);
+
+    @media (max-width: 768px) {
+        background-image: url(/assets/image/top_sp.jpg);
+    }
+}

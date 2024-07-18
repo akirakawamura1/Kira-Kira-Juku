@@ -62,7 +62,6 @@ li {
   .header_container {
     height: 10.1rem;
     max-width: 116rem;
-    padding: 0;
   }
 }
 
@@ -106,20 +105,6 @@ li {
   top: 7rem;
   right: 0;
   left: 0;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-  pointer-events: none;
-  transition: opacity 0.3s linear;
->>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
->>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
->>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
->>>>>>> 294470e9752795a05d0619aa5c296058d76d4a5e
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -138,19 +123,6 @@ li {
 
 /* アニメーション後のメニューの状態 */
 .header_nav.is-active {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-  width: 100%;
->>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
->>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
->>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
->>>>>>> 294470e9752795a05d0619aa5c296058d76d4a5e
   pointer-events: auto;
   opacity: 1;
 }
@@ -184,29 +156,15 @@ li {
 *------------------------------------*/
 .header_nav {
   padding: 0 2rem 3.2rem 2rem;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 }
 @media screen and (min-width: 768px) {
   .header_nav {
+    padding: unset;
     position: unset;
-    padding: 0;
     background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
+    flex-direction: unset;
     gap: 4.8rem;
-    justify-content: flex-end;
   }
->>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
->>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
->>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
->>>>>>> 294470e9752795a05d0619aa5c296058d76d4a5e
 }
 
 ul.header_menu {
@@ -214,11 +172,9 @@ ul.header_menu {
 }
 @media screen and (min-width: 768px) {
   ul.header_menu {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 4.8rem;
     width: unset;
+    display: flex;
+    gap: 4.8rem;
   }
 }
 
@@ -234,9 +190,11 @@ ul.header_menu {
 }
 @media screen and (min-width: 768px) {
   .header_menu_link {
+    font-size: 2rem;
     color: initial;
-    padding-bottom: 0;
-    padding-top: 0;
+    display: block;
+    padding-bottom: unset;
+    padding-top: unset;
     border-bottom: none;
     width: unset;
   }
@@ -255,16 +213,18 @@ a.header_entry_botton {
 }
 @media screen and (min-width: 768px) {
   a.header_entry_botton {
+    font-size: 2rem;
+    font-weight: bold;
     color: #ffffff;
-    background-image: linear-gradient(to right, #0271e0, #53a2f0);
     display: flex;
     align-items: center;
     justify-content: center;
+    width: unset;
     padding: unset;
     margin-top: unset;
+    background-image: linear-gradient(to right, #0271e0, #53a2f0);
     width: 28.2rem;
     height: 6.1rem;
-    border-radius: 3.1rem;
   }
 }
 
@@ -274,19 +234,6 @@ a.header_entry_botton {
 /* 画面の横幅が768px以上の場合 */
 @media screen and (min-width: 768px) {
   .header_nav {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    width: 100%;
->>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
->>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
->>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
->>>>>>> 294470e9752795a05d0619aa5c296058d76d4a5e
     display: flex;
     opacity: 1;
     pointer-events: auto;
@@ -298,24 +245,11 @@ a.header_entry_botton {
 /*----------------------------
   *  ここまでがSP完成 
 *----------------------------*/
-/*----------------------------
-<<<<<<< HEAD
-*  画面幅が768px以上のときに適用されるスタイル（PC表示） 
-<<<<<<< HEAD
-*----------------------------*//*# sourceMappingURL=main.css.map */
-=======
-<<<<<<< HEAD
-*----------------------------*//*# sourceMappingURL=main.css.map */
-=======
-<<<<<<< HEAD
-*----------------------------*//*# sourceMappingURL=main.css.map */
-=======
-*----------------------------*//*# sourceMappingURL=main.css.map */
-=======
-  *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
-  *----------------------------*/
-/* 画面の横幅が768px以上の場合 *//*# sourceMappingURL=main.css.map */
->>>>>>> 464b5039c1098ad6e309f7e4c213f3ddbc393853
->>>>>>> 5938aa04bc20329cf4f5693193e033f1fa959285
->>>>>>> 41bf023e6dfad926d51a60e20013a5d2e230a0c1
->>>>>>> 294470e9752795a05d0619aa5c296058d76d4a5e
+.cover {
+  background-image: url(/assets/image/top_pc.jpg);
+}
+@media (max-width: 768px) {
+  .cover {
+    background-image: url(/assets/image/top_sp.jpg);
+  }
+}/*# sourceMappingURL=main.css.map */

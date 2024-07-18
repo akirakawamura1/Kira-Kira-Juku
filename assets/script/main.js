@@ -11,7 +11,7 @@ $(document).ready(function() {
     });
 });
 
-
+// 以下はCopilotで聞いて作成した物ですが複雑なため修正し上に修正しなおしました。
 //     // リサイズイベントの処理
 //     $(window).resize(function() {
 //         if ($(window).width() >= 768) {
