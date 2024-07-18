@@ -249,4 +249,14 @@ a.header_entry_botton {
   .cover {
     background-image: url(/assets/image/top_sp.jpg);
   }
+}
+
+.cover_badge_left_image {
+  width: 1.81vw;
+  height: 5.02vh;
+}
+
+.cover_badge_right_image {
+  width: 1.81vw;
+  height: 5.02vh;
 }/*# sourceMappingURL=main.css.map */
