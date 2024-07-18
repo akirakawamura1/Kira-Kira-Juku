@@ -242,6 +242,8 @@ a.header_entry_botton {
 *----------------------------*/
 .cover {
   background-image: url(/assets/image/top_pc.jpg);
+  top: 7rem;
+  position: relative;
 }
 @media (max-width: 768px) {
   .cover {
