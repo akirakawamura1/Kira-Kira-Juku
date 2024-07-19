@@ -244,19 +244,11 @@ a.header_entry_botton {
   background-image: url(/assets/image/top_pc.jpg);
   top: 7rem;
   position: relative;
+  background-size: cover;
+  background-position: center;
 }
 @media (max-width: 768px) {
   .cover {
     background-image: url(/assets/image/top_sp.jpg);
   }
-}
-
-.cover_badge_left_image {
-  width: 1.81vw;
-  height: 5.02vh;
-}
-
-.cover_badge_right_image {
-  width: 1.81vw;
-  height: 5.02vh;
 }/*# sourceMappingURL=main.css.map */
