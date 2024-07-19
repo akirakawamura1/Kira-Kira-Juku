@@ -2,6 +2,8 @@
     background-image: url(/assets/image/top_pc.jpg);
     top: 7rem;
     position: relative;
+    background-size: cover;
+    background-position: center;
 
     @media (max-width: 768px) {
         background-image: url(/assets/image/top_sp.jpg);
