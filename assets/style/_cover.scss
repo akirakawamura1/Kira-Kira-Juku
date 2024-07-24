@@ -3,9 +3,53 @@
     top: 7rem;
     position: relative;
     background-size: cover;
-    background-position: center;
+    background-position: 70% center;
 
     @media (max-width: 768px) {
         background-image: url(/assets/image/top_sp.jpg);
+    }
+}
+.cover_container {
+    padding: 3.4rem 0 3.47rem 1.6rem;
+    .cover_badge {
+        display: flex;
+        img.cover_badge_left_image {
+            width: 2.407rem;
+            height: 6.865rem;
+        }
+        img.cover_badge_right_image {
+            width: 2.407rem;
+            height: 6.865rem;
+        }
+        .cover_badge_text_box {
+            p.cover_badge_text {
+                font-size: 1.1rem;
+            }
+            p.cover_badge_no_1 {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 800;    /* ExtraBold */
+                font-style: italic;  /* Italic */
+                text-align: center;
+                color: #F11F8D;
+                line-height: 1;
+                span.number_prefix {
+                    font-size: 2.5rem;
+                }
+                span.number_value {
+                    font-size: 3.6rem;
+                }
+            }
+        }
+    }  //cover_badge
+    h1.cover_title {
+        padding-top: 2.07rem;
+        p.cover_title_sub_text {
+            font-size: 1.4rem;
+        }
+        p.cover_title_text {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #005bac;
+        }
     }
 }
