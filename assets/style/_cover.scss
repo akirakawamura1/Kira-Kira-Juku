@@ -1,13 +1,13 @@
 .cover {
     padding: 3.4rem 0 3.47rem 1.6rem;
-    background-image: url(/assets/image/top_pc.jpg);
+    background-image: url(/assets/image/top_sp.jpg);
     top: 7rem;
     position: relative;
     background-size: cover;
     background-position: 70% center;
 
     @media (max-width: 768px) {
-        background-image: url(/assets/image/top_sp.jpg);
+        background-image: url(/assets/image/top_pc.jpg);
     }
 }
 .cover_container {
