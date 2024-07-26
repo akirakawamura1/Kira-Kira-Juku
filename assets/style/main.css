@@ -90,6 +90,11 @@ li {
   cursor: pointer;
   z-index: 2;
 }
+@media screen and (min-width: 768px) {
+  .header_menu_button {
+    display: none;
+  }
+}
 
 .header_menu_icon {
   width: 3rem;
@@ -117,7 +122,13 @@ li {
 }
 @media screen and (min-width: 768px) {
   .header_nav {
-    width: unset;
+    display: flex;
+    position: unset;
+    background-color: #ffffff;
+    flex-direction: unset;
+    gap: 4.8rem;
+    pointer-events: auto;
+    opacity: 1;
   }
 }
 
@@ -160,10 +171,6 @@ li {
 @media screen and (min-width: 768px) {
   .header_nav {
     padding: unset;
-    position: unset;
-    background-color: #ffffff;
-    flex-direction: unset;
-    gap: 4.8rem;
   }
 }
 
@@ -228,25 +235,9 @@ a.header_entry_botton {
   }
 }
 
-/*----------------------------
-  *  画面幅が768px以上のときに適用されるスタイル（PC表示） 
-  *----------------------------*/
-/* 画面の横幅が768px以上の場合 */
-@media screen and (min-width: 768px) {
-  .header_nav {
-    display: flex;
-    opacity: 1;
-    pointer-events: auto;
-  }
-  .header_menu_button {
-    display: none;
-  }
-}
-/*----------------------------
-  *  ここまでがSP完成 
-*----------------------------*/
 .cover {
-  background-image: url(/assets/image/top_pc.jpg);
+  padding: 3.4rem 0 3.47rem 1.6rem;
+  background-image: url(/assets/image/top_sp.jpg);
   top: 7rem;
   position: relative;
   background-size: cover;
@@ -254,13 +245,10 @@ a.header_entry_botton {
 }
 @media (max-width: 768px) {
   .cover {
-    background-image: url(/assets/image/top_sp.jpg);
+    background-image: url(/assets/image/top_pc.jpg);
   }
 }
 
-.cover_container {
-  padding: 3.4rem 0 3.47rem 1.6rem;
-}
 .cover_container .cover_badge {
   display: flex;
 }
