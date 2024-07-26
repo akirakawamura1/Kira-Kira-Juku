@@ -241,9 +241,9 @@ a.header_entry_botton {
   top: 7rem;
   position: relative;
   background-size: cover;
-  background-position: 70% center;
+  background-position: 50% center;
 }
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .cover {
     background-image: url(/assets/image/top_pc.jpg);
   }
