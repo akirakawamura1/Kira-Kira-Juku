@@ -256,17 +256,31 @@ a.header_entry_botton {
   width: 2.407rem;
   height: 6.865rem;
 }
+@media screen and (min-width: 768px) {
+  .cover_container .cover_badge img.cover_badge_left_image {
+    width: 5.26rem;
+    height: 15rem;
+  }
+}
 .cover_container .cover_badge img.cover_badge_right_image {
   width: 2.407rem;
   height: 6.865rem;
+}
+@media screen and (min-width: 768px) {
+  .cover_container .cover_badge img.cover_badge_right_image {
+    width: 5.26rem;
+    height: 15rem;
+  }
 }
 .cover_container .cover_badge .cover_badge_text_box p.cover_badge_text {
   font-size: 1.1rem;
 }
 .cover_container .cover_badge .cover_badge_text_box p.cover_badge_no_1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 800; /* ExtraBold */
-  font-style: italic; /* Italic */
+  font-weight: 800;
+  /* ExtraBold */
+  font-style: italic;
+  /* Italic */
   text-align: center;
   color: #F11F8D;
   line-height: 1;
