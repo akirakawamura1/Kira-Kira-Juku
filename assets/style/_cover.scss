@@ -40,6 +40,11 @@
         .cover_badge_text_box {
             p.cover_badge_text {
                 font-size: 1.1rem;
+
+                // 画面の横幅が768px以上の場合
+                @media screen and (min-width: 768px) {
+                    font-size: 2rem;
+                }
             }
 
             p.cover_badge_no_1 {
@@ -54,28 +59,57 @@
 
                 span.number_prefix {
                     font-size: 2.5rem;
+
+                    // 画面の横幅が768px以上の場合
+                    @media screen and (min-width: 768px) {
+                        font-size: 5.4rem;
+                    }
                 }
 
                 span.number_value {
                     font-size: 3.6rem;
+
+                    // 画面の横幅が768px以上の場合
+                    @media screen and (min-width: 768px) {
+                        font-size: 7.4rem;
+                    }
                 }
             }
+
+            //p.cover_badge_no_1 
         }
+
+        //.cover_badge_text_box
     }
 
-    //cover_badge
+    //.cover_badge
+
     h1.cover_title {
         margin-top: 2.07rem;
 
-        // padding-top: 2.07rem;
+        // 画面の横幅が768px以上の場合
+        @media screen and (min-width: 768px) {
+            margin-top: 3.2rem;
+        }
+
         p.cover_title_sub_text {
             font-size: 1.4rem;
+
+            // 画面の横幅が768px以上の場合
+            @media screen and (min-width: 768px) {
+                font-size: 3.3rem;
+            }
         }
 
         p.cover_title_text {
             font-size: 2.5rem;
             font-weight: 900;
             color: #005bac;
+
+            // 画面の横幅が768px以上の場合
+            @media screen and (min-width: 768px) {
+                font-size: 6rem;
+            }
         }
     }
 }
