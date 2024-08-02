@@ -12,13 +12,14 @@
         padding-top: 10.4rem;
         padding-bottom: 14.1rem;
         padding-left: 0;
+        background-position: 50% center;
     }
 }
 
 .cover_container {
     @media screen and (min-width: 768px) {
         margin: 0 auto;
-        max-width: 120rem;
+        max-width: 110rem;
         
     }
     .cover_badge {
