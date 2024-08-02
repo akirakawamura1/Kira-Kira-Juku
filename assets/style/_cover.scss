@@ -9,10 +9,17 @@
     @media screen and (min-width: 768px) {
         background-image: url(/assets/image/top_pc.jpg);
         top: 10.1rem;
+        padding-top: 10.4rem;
+        padding-bottom: 14.1rem;
     }
 }
 
 .cover_container {
+    @media screen and (min-width: 768px) {
+        margin: 0 auto;
+        max-width: 120rem;
+        
+    }
     .cover_badge {
         display: flex;
 
