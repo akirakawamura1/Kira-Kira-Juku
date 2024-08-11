@@ -27,6 +27,13 @@ body {
     font-family: "Noto Sans JP", sans-serif;
     line-height: 1.75;
     color: #333;
+    // coverに設定を修正変更追加記述
+    position: relative;
+    top: 7rem;
+    @media (min-width:768px) {
+        top: 10.1rem;
+    }
+
 }
 
 a {

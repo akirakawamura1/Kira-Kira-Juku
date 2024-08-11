@@ -24,6 +24,13 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   line-height: 1.75;
   color: #333;
+  position: relative;
+  top: 7rem;
+}
+@media (min-width: 768px) {
+  body {
+    top: 10.1rem;
+  }
 }
 
 a {
@@ -238,15 +245,12 @@ a.header_entry_botton {
 .cover {
   padding: 3.4rem 0 3.47rem 1.6rem;
   background-image: url(/assets/image/top_sp.jpg);
-  top: 7rem;
-  position: relative;
   background-size: cover;
   background-position: 50% center;
 }
 @media screen and (min-width: 768px) {
   .cover {
     background-image: url(/assets/image/top_pc.jpg);
-    top: 10.1rem;
     padding-top: 10.4rem;
     padding-bottom: 14.1rem;
     padding-left: 0;

@@ -1,14 +1,14 @@
 .cover {
     padding: 3.4rem 0 3.47rem 1.6rem;
     background-image: url(/assets/image/top_sp.jpg);
-    top: 7rem;
-    position: relative;
+    // top: 7rem;
+    // position: relative;
     background-size: cover;
     background-position: 50% center;
 
     @media screen and (min-width: 768px) {
         background-image: url(/assets/image/top_pc.jpg);
-        top: 10.1rem;
+        // top: 10.1rem;
         padding-top: 10.4rem;
         padding-bottom: 14.1rem;
         padding-left: 0;
@@ -84,15 +84,15 @@
                         font-size: 7.4rem;
                     }
                 }
-            }
+            } //p.cover_badge_no_1 
 
-            //p.cover_badge_no_1 
-        }
+            
+        } //.cover_badge_text_box
 
-        //.cover_badge_text_box
-    }
+        
+    } //.cover_badge
 
-    //.cover_badge
+    
 
     h1.cover_title {
         margin-top: 2.07rem;
