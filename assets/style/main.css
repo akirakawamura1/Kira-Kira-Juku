@@ -346,4 +346,36 @@ a.header_entry_botton {
   .cover_container h1.cover_title p.cover_title_text {
     font-size: 6rem;
   }
+}
+
+ul.top_action_list {
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+ul.top_action_list a.top_button {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  width: 25rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul.top_action_list .top_button_green {
+  background-color: #77cb33;
+  border-radius: 2.5rem;
+}
+ul.top_action_list .top_button_yellow {
+  background-color: #f6aa00;
+  border-radius: 2.5rem;
+  margin: 1.2rem 0 1.2rem 0;
+}
+ul.top_action_list .top_button_blue {
+  background-color: #3ac8ad;
+  border-radius: 2.5rem;
 }/*# sourceMappingURL=main.css.map */
