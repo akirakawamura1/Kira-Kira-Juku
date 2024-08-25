@@ -358,9 +358,9 @@ ul.top_action_list {
 }
 @media (min-width: 768px) {
   ul.top_action_list {
+    display: flex;
     flex-direction: row;
     gap: 4rem;
-    margin-top: -6.6rem;
   }
 }
 ul.top_action_list a.top_button {
