@@ -361,6 +361,8 @@ ul.top_action_list {
     display: flex;
     flex-direction: row;
     gap: 4rem;
+    padding-top: 0;
+    margin-top: -4rem;
   }
 }
 ul.top_action_list a.top_button {
