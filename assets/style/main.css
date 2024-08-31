@@ -485,6 +485,7 @@ ul.top_action_list .top_button_blue {
   margin-right: auto;
   max-width: 100%;
   height: auto;
+  border-radius: 1.2rem;
 }
 
 @media (min-width: 768px) {
