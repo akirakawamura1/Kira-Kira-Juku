@@ -35,7 +35,27 @@
             }
         }  // .point_text_container
     }
-    .point .point_reverse {
+    @media (min-width: 768px) {
+        .point {
+            display: flex;
+            max-width: 116rem;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 4rem;
+            .point_text_container {
+                p.point_number {
+                    font-size: 2.8rem;
+                    span.no {
+                        font-size: 4.2rem;
+                    }
+                }  // .point_number
+                h3.point_title {
+                    font-size: 2.4rem;
+                }
+            }  // .point_text_container
+        }
+    }
+    .point.point_reverse {
         padding: 0 1.6rem 3.6rem 1.6rem;
 
         .point_text_container {
@@ -57,6 +77,29 @@
             }
         }  // .point_text_container
     }
+    @media (min-width: 768px) {
+        .point.point_reverse {
+            flex-direction: row-reverse;
+            max-width: 116rem;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 4rem;
+            .point_text_container {
+                p.point_number {
+                    font-size: 2.8rem;
+                    span.no {
+                        font-size: 4.2rem;
+                    }
+                }  // .point_number
+                h3.point_title {
+                    font-size: 2.4rem;
+                }
+                p.point_description {
+                    font-size: 1.6rem;
+                }
+            }  // .point_text_container
+        }
+    }
 }  //.three_point_container
 .point_image {
     display: block;
@@ -64,4 +107,9 @@
     margin-right: auto;
     max-width: 100%;
     height: auto;
+}
+@media (min-width: 768px) {
+    .point_image {
+        width: 50%;
+    }
 }
