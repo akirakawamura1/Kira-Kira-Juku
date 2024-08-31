@@ -420,24 +420,63 @@ ul.top_action_list .top_button_blue {
 .three_point_container .point .point_text_container p.point_description {
   font-size: 1.6rem;
 }
-.three_point_container .point .point_reverse {
+@media (min-width: 768px) {
+  .three_point_container .point {
+    display: flex;
+    max-width: 116rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 4rem;
+  }
+  .three_point_container .point .point_text_container p.point_number {
+    font-size: 2.8rem;
+  }
+  .three_point_container .point .point_text_container p.point_number span.no {
+    font-size: 4.2rem;
+  }
+  .three_point_container .point .point_text_container h3.point_title {
+    font-size: 2.4rem;
+  }
+}
+.three_point_container .point.point_reverse {
   padding: 0 1.6rem 3.6rem 1.6rem;
 }
-.three_point_container .point .point_reverse .point_text_container p.point_number {
+.three_point_container .point.point_reverse .point_text_container p.point_number {
   font-size: 2.4rem;
   font-family: poppins;
   font-weight: 700;
   color: #F11F8D;
   font-style: italic;
 }
-.three_point_container .point .point_reverse .point_text_container p.point_number span.no {
+.three_point_container .point.point_reverse .point_text_container p.point_number span.no {
   font-size: 3.6rem;
 }
-.three_point_container .point .point_reverse .point_text_container h3.point_title {
+.three_point_container .point.point_reverse .point_text_container h3.point_title {
   font-size: 2rem;
 }
-.three_point_container .point .point_reverse .point_text_container p.point_description {
+.three_point_container .point.point_reverse .point_text_container p.point_description {
   font-size: 1.6rem;
+}
+@media (min-width: 768px) {
+  .three_point_container .point.point_reverse {
+    flex-direction: row-reverse;
+    max-width: 116rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 4rem;
+  }
+  .three_point_container .point.point_reverse .point_text_container p.point_number {
+    font-size: 2.8rem;
+  }
+  .three_point_container .point.point_reverse .point_text_container p.point_number span.no {
+    font-size: 4.2rem;
+  }
+  .three_point_container .point.point_reverse .point_text_container h3.point_title {
+    font-size: 2.4rem;
+  }
+  .three_point_container .point.point_reverse .point_text_container p.point_description {
+    font-size: 1.6rem;
+  }
 }
 
 .point_image {
@@ -446,4 +485,10 @@ ul.top_action_list .top_button_blue {
   margin-right: auto;
   max-width: 100%;
   height: auto;
+}
+
+@media (min-width: 768px) {
+  .point_image {
+    width: 50%;
+  }
 }/*# sourceMappingURL=main.css.map */
