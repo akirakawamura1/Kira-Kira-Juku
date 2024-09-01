@@ -389,6 +389,9 @@ ul.top_action_list .top_button_blue {
   border-radius: 2.5rem;
 }
 
+.three_point_container {
+  padding-bottom: 3.6rem;
+}
 .three_point_container h2.three_point_title {
   margin-block-start: 0;
   margin-block-end: 0;
