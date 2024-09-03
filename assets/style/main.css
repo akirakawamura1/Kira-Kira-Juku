@@ -482,6 +482,11 @@ ul.top_action_list .top_button_blue {
   }
 }
 
+@media (min-width: 768px) {
+  .three_point_container {
+    padding-bottom: 7.2rem;
+  }
+}
 .point_image {
   display: block;
   margin-left: auto;
@@ -489,6 +494,7 @@ ul.top_action_list .top_button_blue {
   max-width: 100%;
   height: auto;
   border-radius: 1.2rem;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
