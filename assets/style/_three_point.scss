@@ -38,12 +38,15 @@
     }
     @media (min-width: 768px) {
         .point {
+            padding: 0;
             display: flex;
-            max-width: 116rem;
+            // max-width: 116rem;
+            width: 116rem;
             margin-left: auto;
             margin-right: auto;
             gap: 4rem;
             .point_text_container {
+                width: 56rem;
                 p.point_number {
                     font-size: 2.8rem;
                     span.no {
@@ -80,11 +83,13 @@
     }
     @media (min-width: 768px) {
         .point.point_reverse {
+            padding: 0;
             flex-direction: row-reverse;
-            max-width: 116rem;
+            // max-width: 116rem;
+            width: 116rem;
             margin-left: auto;
             margin-right: auto;
-            gap: 4rem;
+            // gap: 4rem;
             .point_text_container {
                 p.point_number {
                     font-size: 2.8rem;
@@ -118,6 +123,6 @@
 }
 @media (min-width: 768px) {
     .point_image {
-        width: 50%;
+        width: 56rem;
     }
 }

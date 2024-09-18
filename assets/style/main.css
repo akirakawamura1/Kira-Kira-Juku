@@ -422,11 +422,15 @@ ul.top_action_list .top_button_blue {
 }
 @media (min-width: 768px) {
   .three_point_container .point {
+    padding: 0;
     display: flex;
-    max-width: 116rem;
+    width: 116rem;
     margin-left: auto;
     margin-right: auto;
     gap: 4rem;
+  }
+  .three_point_container .point .point_text_container {
+    width: 56rem;
   }
   .three_point_container .point .point_text_container p.point_number {
     font-size: 2.8rem;
@@ -459,11 +463,11 @@ ul.top_action_list .top_button_blue {
 }
 @media (min-width: 768px) {
   .three_point_container .point.point_reverse {
+    padding: 0;
     flex-direction: row-reverse;
-    max-width: 116rem;
+    width: 116rem;
     margin-left: auto;
     margin-right: auto;
-    gap: 4rem;
   }
   .three_point_container .point.point_reverse .point_text_container p.point_number {
     font-size: 2.8rem;
@@ -496,6 +500,6 @@ ul.top_action_list .top_button_blue {
 
 @media (min-width: 768px) {
   .point_image {
-    width: 50%;
+    width: 56rem;
   }
 }/*# sourceMappingURL=main.css.map */
