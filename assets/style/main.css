@@ -363,6 +363,7 @@ ul.top_action_list {
     gap: 4rem;
     padding-top: 0;
     margin-top: -4rem;
+    padding-bottom: 0;
   }
 }
 ul.top_action_list a.top_button {
@@ -403,6 +404,7 @@ ul.top_action_list .top_button_blue {
 }
 @media (min-width: 768px) {
   .three_point_container h2.three_point_title {
+    margin-bottom: 3.2rem;
     font-size: 3.6rem;
     font-weight: bold;
   }
@@ -495,7 +497,7 @@ ul.top_action_list .top_button_blue {
 @media (min-width: 768px) {
   .three_point_container {
     padding-bottom: 7.2rem;
-    padding-top: 4.8rem;
+    padding-top: 7.2rem;
   }
 }
 .point_image {
