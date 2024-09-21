@@ -435,18 +435,22 @@ ul.top_action_list .top_button_blue {
     width: 116rem;
     margin-left: auto;
     margin-right: auto;
-    gap: 4rem;
+    margin-bottom: 4.8rem;
+    justify-content: space-between;
   }
-  .three_point_container .point .point_text_container {
+  .three_point_container .point:last-of-type {
+    margin-bottom: 0;
+  }
+  .three_point_container .point_text_container {
     width: 56rem;
   }
-  .three_point_container .point .point_text_container p.point_number {
+  .three_point_container .point_text_container p.point_number {
     font-size: 2.8rem;
   }
-  .three_point_container .point .point_text_container p.point_number span.no {
+  .three_point_container .point_text_container p.point_number span.no {
     font-size: 4.2rem;
   }
-  .three_point_container .point .point_text_container h3.point_title {
+  .three_point_container .point_text_container h3.point_title {
     font-size: 2.4rem;
   }
 }
@@ -507,5 +511,7 @@ ul.top_action_list .top_button_blue {
 @media (min-width: 768px) {
   .point_image {
     width: 56rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 }/*# sourceMappingURL=main.css.map */

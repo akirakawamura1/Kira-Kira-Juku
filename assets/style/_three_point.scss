@@ -55,6 +55,12 @@
             margin-left: auto;
             margin-right: auto;
             // gap: 4rem;
+            margin-bottom: 4.8rem;
+            justify-content: space-between;
+        }
+            .point:last-of-type {
+                margin-bottom: 0;
+            }
             .point_text_container {
                 width: 56rem;
                 p.point_number {
@@ -67,7 +73,6 @@
                     font-size: 2.4rem;
                 }
             }  // .point_text_container
-        }
     }
     .point.point_reverse {
         // padding: 0 1.6rem 3.6rem 1.6rem;
