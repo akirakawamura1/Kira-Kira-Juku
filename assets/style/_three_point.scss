@@ -54,7 +54,7 @@
             width: 116rem;
             margin-left: auto;
             margin-right: auto;
-            gap: 4rem;
+            // gap: 4rem;
             .point_text_container {
                 width: 56rem;
                 p.point_number {
@@ -135,5 +135,7 @@
 @media (min-width: 768px) {
     .point_image {
         width: 56rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
