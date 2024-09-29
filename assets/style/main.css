@@ -390,11 +390,16 @@ ul.top_action_list .top_button_blue {
   border-radius: 2.5rem;
 }
 
+.three_point {
+  padding: 0 1.6rem 3.6rem 1.6rem;
+}
+
 .three_point_container h2.three_point_title {
   margin-block-start: 0;
   margin-block-end: 0;
   text-align: center;
   font-size: 2.8rem;
+  margin-bottom: 1.7rem;
 }
 .three_point_container h2.three_point_title span.three {
   color: #F11F8D;
@@ -412,9 +417,6 @@ ul.top_action_list .top_button_blue {
     font-size: 5.4rem;
   }
 }
-.three_point_container .point {
-  padding: 0 1.6rem 3.6rem 1.6rem;
-}
 .three_point_container .point .point_text_container p.point_number {
   font-size: 2.4rem;
   font-family: poppins;
@@ -427,6 +429,7 @@ ul.top_action_list .top_button_blue {
 }
 .three_point_container .point .point_text_container h3.point_title {
   font-size: 2rem;
+  margin-bottom: 1.2rem;
 }
 .three_point_container .point .point_text_container p.point_description {
   font-size: 1.6rem;
@@ -509,6 +512,7 @@ ul.top_action_list .top_button_blue {
   height: auto;
   border-radius: 1.2rem;
   width: 100%;
+  margin-bottom: 0.8rem;
 }
 
 @media (min-width: 768px) {
