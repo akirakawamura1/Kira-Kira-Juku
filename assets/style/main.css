@@ -393,6 +393,11 @@ ul.top_action_list .top_button_blue {
 .three_point {
   padding: 0 1.6rem 3.6rem 1.6rem;
 }
+@media (min-width: 768px) {
+  .three_point {
+    padding-bottom: 7.2rem;
+  }
+}
 
 .three_point_container h2.three_point_title {
   margin-block-start: 0;
