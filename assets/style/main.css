@@ -515,4 +515,46 @@ ul.top_action_list .top_button_blue {
 /* 最後の .point の .point_text_container 内の .point_description の margin-bottom を 0 に設定 */
 .three_point_container .point:last-of-type .point_text_container .point_description {
   margin-bottom: 0;
+}
+
+.cta {
+  padding: 4rem 3.5rem 4rem 3.5rem;
+  background-color: #FFEAEA;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cta_text {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+@media (max-width: 768px) {
+  .cta_text {
+    white-space: pre-line;
+  }
+}
+@media (min-width: 769px) {
+  .cta_text {
+    white-space: nowrap;
+  }
+}
+
+a.cta_button {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #0271E0;
+  display: flex;
+  width: 30.5rem;
+  height: 6.9rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3.5rem;
+}
+@media (min-width: 768px) {
+  a.cta_button {
+    font-size: 2.4rem;
+  }
 }/*# sourceMappingURL=main.css.map */
