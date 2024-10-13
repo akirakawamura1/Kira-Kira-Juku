@@ -395,6 +395,7 @@ ul.top_action_list .top_button_blue {
 }
 @media (min-width: 768px) {
   .three_point {
+    padding-top: 7.2rem;
     padding-bottom: 7.2rem;
   }
 }
@@ -447,9 +448,6 @@ ul.top_action_list .top_button_blue {
   .three_point_container .point {
     padding: 0;
     display: flex;
-    width: 116rem;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 4.8rem;
     justify-content: space-between;
   }
@@ -471,9 +469,6 @@ ul.top_action_list .top_button_blue {
   .three_point_container .point.point_reverse {
     padding: 0;
     flex-direction: row-reverse;
-    width: 116rem;
-    margin-left: auto;
-    margin-right: auto;
   }
   .three_point_container .point.point_reverse .point_text_container p.point_number {
     font-size: 2.8rem;
@@ -491,7 +486,8 @@ ul.top_action_list .top_button_blue {
 
 @media (min-width: 768px) {
   .three_point_container {
-    padding-top: 7.2rem;
+    max-width: 116rem;
+    margin-inline: auto;
   }
 }
 .point_image {
@@ -510,6 +506,7 @@ ul.top_action_list .top_button_blue {
     width: 56rem;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
   }
 }
 /* 最後の .point の .point_text_container 内の .point_description の margin-bottom を 0 に設定 */
@@ -521,9 +518,6 @@ ul.top_action_list .top_button_blue {
   padding: 4rem 3.5rem 4rem 3.5rem;
   background-color: #FFEAEA;
   text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .cta_text {
@@ -552,6 +546,7 @@ a.cta_button {
   align-items: center;
   justify-content: center;
   border-radius: 3.5rem;
+  margin-inline: auto;
 }
 @media (min-width: 768px) {
   a.cta_button {

@@ -2,9 +2,9 @@
     padding: 4rem 3.5rem 4rem 3.5rem;
     background-color: #FFEAEA;
     text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    // display: flex;
+    // align-items: center;
+    // flex-direction: column;
 }
 .cta_text {
     font-size: 1.6rem;
@@ -27,6 +27,7 @@ a.cta_button {
     align-items: center;
     justify-content: center;
     border-radius: 3.5rem;
+    margin-inline: auto;
     @media (min-width: 768px) {
         font-size: 2.4rem;
     }
