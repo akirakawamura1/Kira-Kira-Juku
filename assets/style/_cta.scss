@@ -9,6 +9,9 @@
 .cta_text {
     font-size: 1.6rem;
     margin-bottom: 1.2rem;
+    span.cta_wrap {
+        display: inline-block;
+    }
     @media (max-width: 768px) {
         white-space: pre-line;
     }

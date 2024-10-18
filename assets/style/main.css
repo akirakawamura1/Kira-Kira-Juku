@@ -524,6 +524,9 @@ ul.top_action_list .top_button_blue {
   font-size: 1.6rem;
   margin-bottom: 1.2rem;
 }
+.cta_text span.cta_wrap {
+  display: inline-block;
+}
 @media (max-width: 768px) {
   .cta_text {
     white-space: pre-line;
